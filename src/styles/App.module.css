@@ -1,0 +1,17 @@
+.appContainer {
+  --fundo-pagina: #0f172a;
+  --texto-pagina: #f8fafc;
+
+  min-height: 100vh;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-pagina);
+}
+
+.gridJogadores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
